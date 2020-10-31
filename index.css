@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'meriendabold';
+    src: url('./fonts/merienda-bold-webfont.woff2') format('woff2'),
+         url('./fonts/merienda-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1,
+h2{
+    font-family:  'meriendabold',sans-serif;
+    font-size: 50px;
+}
+h1 {
+    
+    text-align: center;
+    font-size: 55px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+.container-fluid,
+nav,
+Footer{
+    background-color: rgb(243,233,241);
+}
+.lign{
+    margin-bottom: 50px;
+    border: 50px solid  rgb(245, 132, 224);
+}
+
+.container-fluid{
+    margin-bottom: -10px;
+}
+nav{
+   
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product_card{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border: 3px solid rgb(79, 25, 83);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+img{
+    width: 200px;
+    margin-right: 300px;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.product_price{
+    margin-top: 50px;
+   
+}
+.product_price, p {
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+    
+}
+ul{
+    list-style-type: none;
+}
+.social,
+ul li{
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-share-alt,
+.fa-phone-alt,
+.fa-envelope{
+    margin-right: 20px;
+}
+.lien{
+    border-bottom: 1px solid black;
+}
