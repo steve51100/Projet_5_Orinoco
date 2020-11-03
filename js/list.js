@@ -3,7 +3,7 @@
  */
 
 request('GET','http://localhost:3000/api/teddies', function(ours){
-    displayCameras(ours);
+    displayOurs(ours);
 });
 
 /**
@@ -11,13 +11,13 @@ request('GET','http://localhost:3000/api/teddies', function(ours){
  * */
 const listeVue = document.getElementById('liste');
 
-function displayCameras(ours){
+function displayOurs(ours){
     for(let i in ours) {
         let productCard = document.createElement('section');
             productCard.classList.add('product_card');
             productCard.onclick = function storeData(){
               
-                window.open("page_produit.html", "_self");
+                window.open("page_produit.html");
             };
 
         let productLeftDiv = document.createElement('div');

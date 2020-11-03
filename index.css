@@ -87,3 +87,25 @@ ul li{
 .lien{
     border-bottom: 1px solid black;
 }
+.produit,
+.separation{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    
+}
+.separation{
+    margin-bottom: 40px;
+}
+footer{
+    margin-top: 50px;
+}
+h2,
+#product_info,
+#product_perso{
+    text-align: center;
+}
+.product_image{
+    width: 50%;
+    margin: auto;
+}
