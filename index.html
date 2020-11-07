@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     <title>Orinoco-ours en peluche</title>
 </head>
 
@@ -29,7 +30,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" style="color:black;" href="#">Acceuil </a>
                 </li>
-               
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;">
@@ -54,50 +55,72 @@
     </nav>
     <div class="lign"></div>
     <main>
-        <section id="liste">
+        <section id="liste"><a href="page_produit.html">
+            <div class="product">
+                <div id="name"></div>
+                <div class="img"></div>
+                <div class="prix"></div>
+                <div class="description"></div>
+
+
+               
+            </div></a>
         </section>
     </main>
-<footer>
-   <div class="container-fluid">
-       <div class="row"><h2> Orinoco</h2></div>
-       <div class="row">
-           <div class="col-12 col-sm-4">
-               <h3 class="lien">Produits</h3>
-               <ul>
-                   <li>Ours en peluche</li>
-                   <li>Meubles en chêne</li>
-                   <li>Caméras vintage</li>
-               </ul>
-           </div>
-           <div class="col-12 col-sm-4">
-               <h3 class="lien">Contact</h3>
-               <ul>
-                   <li class="contact"><i class="fas fa-phone-alt"></i>Téléphone</li>
-                   <li class="contact"><i class="far fa-envelope"></i>Email</li>
-                  
-                  
-               </ul>
-           </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <h2> Orinoco</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <h3 class="lien">Produits</h3>
+                    <ul>
+                        <li>Ours en peluche</li>
+                        <li>Meubles en chêne</li>
+                        <li>Caméras vintage</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h3 class="lien">Contact</h3>
+                    <ul>
+                        <li class="contact"><i class="fas fa-phone-alt"></i>Téléphone</li>
+                        <li class="contact"><i class="far fa-envelope"></i>Email</li>
 
 
-           <div class="col-12 col-sm-4">
-            <h3 class="lien">Social</h3>
-            <ul>
-                <li class="social"><i class="fab fa-facebook-f"></i>Facebook</li>
-                <li class="social"><i class="fab fa-instagram"></i>Instagram</li>
-                <li class="social"><i class="fab fa-twitter"></i>Twitter</li>
-                <li class="social"><i class="fas fa-share-alt"></i>Partager</li>
-            </ul>
+                    </ul>
+                </div>
+
+
+                <div class="col-12 col-sm-4">
+                    <h3 class="lien">Social</h3>
+                    <ul>
+                        <li class="social"><i class="fab fa-facebook-f"></i>Facebook</li>
+                        <li class="social"><i class="fab fa-instagram"></i>Instagram</li>
+                        <li class="social"><i class="fab fa-twitter"></i>Twitter</li>
+                        <li class="social"><i class="fas fa-share-alt"></i>Partager</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-       </div>
-   </div>
 
-</footer>
+    </footer>
 
 
 
 
+    //appel de la section liste...
+    const productOurs = document.getElementById("liste");
 
+    //ajout de la div à la section liste
+    const productName = document.createElement("div");
+    const productName.appendChild(productOurs);
+
+    const productClass= document.getElementsByClassName("product");
+
+
+
+    console.log(productClass);
 
 
 

@@ -37,7 +37,7 @@ nav{
     font-weight: bold;
 }
 
-.product_card{
+.product{
     width: 90%;
     margin: auto;
     display: flex;
@@ -45,7 +45,7 @@ nav{
     margin-bottom: 40px;
     border-radius: 10px;
 }
-img{
+.img{
     width: 200px;
     margin-right: 300px;
     margin-left: 20px;
@@ -109,3 +109,6 @@ h2,
     width: 50%;
     margin: auto;
 }
+
+
+
