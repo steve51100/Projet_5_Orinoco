@@ -23,6 +23,7 @@ const getTeddies = async function () {
             //création lien vers produit.html pour chaque section
             const productLink = document.createElement("a");
             productLink.href = "produit.html" + teddy._id;
+            productLink.style.textDecoration = "none";
             teddiesSection.appendChild(productLink);
             productLink.className = 'section_zoom';
             productLink.setAttribute('title', "L'ourson " + teddy.name + " vous attend !");
@@ -78,7 +79,7 @@ const getTeddies = async function () {
             productPrice.className = ('price');
             productPrice.textContent = "prix:" + " " + teddy.price + " " + "€";
             sousDivPrice.appendChild(productPrice);
-            
+
             //******* Description ******** Description ******** Description *****
             const productDesc = document.createElement('p')
             productDesc.className = ('para');
