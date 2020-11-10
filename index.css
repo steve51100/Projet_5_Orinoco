@@ -14,7 +14,6 @@ h2{
 h1 {
     
     text-align: center;
-    font-size: 55px;
    padding-top: 25px;
    padding-bottom: 25px;
 }
@@ -45,13 +44,7 @@ nav{
     margin-bottom: 40px;
     border-radius: 10px;
 }
-.img{
-    width: 200px;
-    margin-right: 300px;
-    margin-left: 20px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
+
 h3{
     font-size: 20px;
     margin-left: 20px;
@@ -60,13 +53,7 @@ h3{
     margin-top: 50px;
    
 }
-.product_price, p {
-    font-size: 20px;
-}
-h3{
-    font-size: 30px;
-    
-}
+
 ul{
     list-style-type: none;
 }
@@ -111,4 +98,63 @@ h2,
 }
 
 
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-------  mise en forme des buttons produits    -----------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+section{
+    width: 90%;
+    border: 2px solid  rgb(79, 25, 83);
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:rgb(243,233,241) ;
+    
+   
+}
+.section_zoom{
+    color: black;
+    display: flex;
+    
+}
+.div_left,
+.div_right{
+   width: 50%;
+   padding-left: 40px;
+   padding-right: 40px;
+   
+}
+.price{
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
 
+.para{
+    margin-bottom: 40px;
+}
+img{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+    
+    font-family:  'meriendabold',sans-serif;
+}
+.Div_Price,
+.Div_name,
+.Div_Description{
+    text-decoration: none;
+    color: black;
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*-------page _product    -----------*/
+/*---------------------------------*/
+/*---------------------------------*/

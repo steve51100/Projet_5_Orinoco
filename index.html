@@ -13,6 +13,8 @@
 </head>
 
 <body>
+ 
+    
     <header>
         <div class="container-fluid">
             <h1>Bienvenu chez Orinoco</h1>
@@ -55,12 +57,10 @@
     </nav>
     <div class="lign"></div>
     <main>
-        <section id="liste">
-            
-        </section>
+       <div id="teddies"></div>
     </main>
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid product_box">
             <div class="row">
                 <h2> Orinoco</h2>
             </div>
@@ -97,22 +97,6 @@
         </div>
 
     </footer>
-
-
-
-
-    //appel de la section liste...
-    const productOurs = document.getElementById("liste");
-
-    //ajout de la div à la section liste
-    const productName = document.createElement("div");
-    const productName.appendChild(productOurs);
-
-    const productClass= document.getElementsByClassName("product");
-
-
-
-    console.log(productClass);
 
 
 
