@@ -104,7 +104,7 @@ h2,
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
 section{
-    width: 700px;
+    width: 60%;
     border: 2px solid  rgb(79, 25, 83);
     border-radius: 20px;
     margin: auto;
@@ -115,7 +115,7 @@ section{
 }
 .section_zoom{
     color: black;
-    display: flex;
+    
     
 }
 .div_left,
@@ -135,14 +135,15 @@ section{
     margin-bottom: 40px;
 }
 img{
-    width: 250px;
-    margin-left: 20px;
+    width: 100%;
+    margin: auto;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 h3{
     font-size: 30px;
     margin-top: 20px;
+    
     
     font-family:  'meriendabold',sans-serif;
 }
@@ -158,3 +159,139 @@ h3{
 /*-------page _product    -----------*/
 /*---------------------------------*/
 /*---------------------------------*/
+#product_ourson{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.bloc_product{
+    border: 3px solid rgb(79, 25, 83);
+    border-radius:20px;
+    background-color:rgb(243,233,241);
+    margin-top: 50px;
+
+}
+
+.Ourson_name{
+    font-size: 50px;
+    font-family: 'meriendabold',sans-serif ;
+    margin-top: 20px;
+}
+.lign_ourson{
+    border: 5px solid rgb(79, 25, 83);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.price_ourson,
+.description_ourson{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.price_ourson{
+    margin-top: 20px;
+}
+.description_ourson{
+    margin-bottom: 20px;
+}
+.bloc_img{
+    width: 60%;
+    margin: auto;
+}
+.ours_img{
+    width:100%;
+    border-radius: 20px;
+    box-shadow: 1px 0px 40px  rgb(79, 25, 83)
+}
+.btn_ajout_panier{
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.btn_ajout_panier:hover{
+    box-shadow: 1px 0px 10px  rgb(79, 25, 83);
+}
+label{
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    font-family:'meriendabold',sans-serif ;
+}
+
+/*---------------------------------*/
+/*---------------------------------*/
+/*-------page _panier   -----------*/
+/*---------------------------------*/
+/*---------------------------------*/
+#panier{
+    border: 3px solid rgb(79, 25, 83);
+    border-radius: 20px;
+    background-color: rgb(243,233,241) ;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.contact_form{
+    border: 2px solid black;
+    padding: 20px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    border-top: none;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.each_teddy{
+    display: flex;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'meriendabold',sans-serif;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.teddy_price{
+    text-align: right;   
+    font-size: 20px;
+}
+.garbage_button{
+    
+}
+.garbage_button:hover{
+    background-color:rgba(102, 255, 0, 0.3);
+    
+}
+.total{
+    font-weight: bold;
+    font-size: 25px;
+}
+button{
+    border-radius: 5px;
+    border-color:  rgb(79, 25, 83);
+    box-shadow: 1px 2px 10px  rgb(79, 25, 83);
+}
+button:hover{
+    background-color:rgba(102, 255, 0, 0.3) ;
+    zoom: 1.05;
+    margin-bottom: -1px;
+    font-weight: bold;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+#cart_link{
+    text-decoration: none;
+    color: black;
+    
+}
