@@ -1,0 +1,81 @@
+#panier{
+    border: 3px solid$color-primary;
+    border-radius: 20px;
+    background-color:$color-menu ;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+#title_recap{
+    font-size: 2.0em;
+    margin-bottom: 50px;
+}
+.title_H3{
+    text-align: left;
+    font-size: 1.7em;
+}
+.contact_form{
+    border: 2px solid $color-black;
+    padding: 20px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    border-top: none;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.each_teddy{
+    display: flex;
+    border: 1px solid $color-black;
+    font-size: 25px;
+    font-weight: bold;
+    @include police;
+    margin: auto;
+    padding: 15px;
+    background-color:$color-whith;
+    margin-bottom: 10px;
+}
+.teddy_price{
+    text-align: right;   
+    font-size: 20px;
+}
+    
+
+.garbage_button:hover{
+    background-color: $color-green;
+    
+}
+.total{
+    font-weight: bold;
+    font-size: 25px;
+}
+button{
+    border-radius: 5px;
+    border-color: $color-primary;
+    box-shadow: 1px 2px 10px $color-primary;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: $color-green ;
+    zoom: 1.05;
+    margin-bottom: -1px;
+    font-weight: bold;
+}
+button a{
+    color: $color-black;
+    text-decoration: none;
+    
+}
+#cart_link{
+    text-decoration: none;
+    color: $color-black;
+    
+}
+.return_acceuil:hover{
+    color: $color-black;
+    text-decoration: none;
+}
+

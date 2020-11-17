@@ -1,0 +1,146 @@
+
+
+h1,
+h2{
+    @include police;
+    font-size: 50px;
+}
+h1 {
+    
+   text-align: center;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+.container-fluid,
+nav,
+Footer{
+    background-color: $color-menu;
+}
+.lign{
+    margin-bottom: 50px;
+    border: 50px solid  $color-lign;
+}
+
+.container-fluid{
+    margin-bottom: -10px;
+}
+nav{
+   
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border: 3px solid $color-primary;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.product_price{
+    margin-top: 50px;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+.social,
+ul li{
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-share-alt,
+.fa-phone-alt,
+.fa-envelope{
+    margin-right: 20px;
+}
+.lien{
+    border-bottom: 1px solid $color-black;
+}
+.produit,
+.separation{
+    border: 1px solid $color-black;
+    width: 50%;
+    margin: auto;
+    
+}
+.separation{
+    margin-bottom: 40px;
+}
+footer{
+    margin-top: 50px;
+}
+h2,
+#product_info,
+#product_perso{
+    text-align: center;
+}
+.product_image{
+    width: 50%;
+    margin: auto;
+}
+
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*-------  mise en forme des buttons list produits    -----------*/
+/*--------------------du fichier java-script---------------------*/
+/*----------------------------------------------------------*/
+
+
+
+section{
+    width: 60%;
+    border: 2px solid $color-primary;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:$color-menu ;
+}
+.section_zoom{
+    color: $color-black;
+    
+    
+}
+.div_left,
+.div_right{
+   width: 50%;
+   padding-left: 40px;
+   padding-right: 40px;
+   
+}
+.price{
+    font-size: 30px;
+    margin-top: 70px;
+}
+.para{
+    margin-bottom: 40px;
+}
+img{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+    @include police;
+}
+.Div_Price,
+.Div_name,
+.Div_Description{
+    text-decoration: none;
+    color: $color-black;
+}
