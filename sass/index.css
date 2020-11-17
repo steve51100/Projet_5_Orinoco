@@ -317,4 +317,14 @@ button a {
   text-decoration: none;
 }
 
+label {
+  width: 160px;
+  border-bottom: none;
+  text-align: left;
+}
+
+.name {
+  width: 300px;
+}
+
 /*# sourceMappingURL=index.css.map */
