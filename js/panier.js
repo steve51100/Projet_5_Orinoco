@@ -13,6 +13,7 @@ teddyDiv.appendChild(teddyDivCart);
 teddyDivCart.className = 'container teddy_cart';
 
 const teddyH3 = document.createElement('h3');
+teddyH3.className ='title_H3';
 teddyDivCart.appendChild(teddyH3);
 teddyH3.textContent = "Vos oursons :";
 console.log(teddyMain)
@@ -22,6 +23,16 @@ if (storedTeddies == null || storedTeddies.length === 0) {
     teddyDivCart.appendChild(emptyCart);
     emptyCart.className = "empty_cart";
     emptyCart.textContent = "Votre panier est tristement vide !"
+
+//création d'un button de retour page-acceuil
+    const returnAcceuil = document.createElement('button');
+    teddyDivCart.appendChild(returnAcceuil);
+
+    const returnAcceuilA = document.createElement('a');
+    returnAcceuil.appendChild(returnAcceuilA);
+    returnAcceuilA.href = "index.html";
+    returnAcceuilA.classList = "button_vide return_acceuil";
+    returnAcceuilA.textContent = "Retour sur la page Produits";
 } else {
     // si des éléments sont présents dans le panier : récupération des éléments du panier
     let i = 0;
@@ -113,6 +124,20 @@ if (storedTeddies == null || storedTeddies.length === 0) {
         alert('Votre panier a bien été vidé !')
         window.location.href = "panier.html";
     });
+
+    //création d'un button de retour page-acceuil
+    const returnAcceuil = document.createElement('button');
+    teddyDivCart.appendChild(returnAcceuil);
+   
+
+    const returnAcceuilA = document.createElement('a');
+    returnAcceuil.appendChild(returnAcceuilA);
+    returnAcceuilA.href = "index.html";
+    returnAcceuilA.classList = "return_acceuil";
+    returnAcceuilA.textContent = "Retour sur la page Produits";
+
+
+
 
     //création du formulaire de commande
     const form = document.createElement('form');
