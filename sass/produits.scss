@@ -67,3 +67,31 @@ label{
     border-bottom: 1px solid $color-black;
     @include police;
 }
+@media (max-width:768px){
+    .mess_conf,
+    .p_confim{
+        font-size: 20px;  
+    }
+    .fa-check-circle{
+        font-size: 50px;
+    }
+    #product_ourson{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    h1,
+    h2,
+    h3,
+    li,
+    .price_ourson,
+    .description_ourson{
+        font-size: 20px;
+    }
+    .Ourson_name{
+        font-size: 30px;
+    }
+    .lign{
+       border: 20px solid $color-lign;
+    }
+};

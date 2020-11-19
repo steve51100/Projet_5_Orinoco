@@ -157,6 +157,15 @@ h3 {
   color: black;
 }
 
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+}
 #product_ourson {
   width: 50%;
   margin: auto;
@@ -229,6 +238,39 @@ label {
   font-family: "meriendabold";
 }
 
+@media (max-width: 768px) {
+  .mess_conf,
+.p_confim {
+    font-size: 20px;
+  }
+
+  .fa-check-circle {
+    font-size: 50px;
+  }
+
+  #product_ourson {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  h1,
+h2,
+h3,
+li,
+.price_ourson,
+.description_ourson {
+    font-size: 20px;
+  }
+
+  .Ourson_name {
+    font-size: 30px;
+  }
+
+  .lign {
+    border: 20px solid #f584e0;
+  }
+}
 #panier {
   border: 3px solid #4f1953;
   border-radius: 20px;
@@ -334,6 +376,27 @@ label {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  #panier {
+    width: 100%;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  .h1,
+.h2,
+.h3,
+.lien,
+li {
+    font-size: 20px;
+  }
+
+  .each_teddy {
+    font-size: 20px;
+  }
+}
 .bloc_confirm {
   border: 2px solid #4f1953;
   border-radius: 20px;
@@ -403,6 +466,33 @@ label {
 
 span {
   font-family: "meriendabold";
+}
+
+@media (max-width: 768px) {
+  .mess_conf,
+.p_confim {
+    font-size: 20px;
+  }
+
+  .fa-check-circle {
+    font-size: 50px;
+  }
+
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  h1,
+h2,
+h3,
+li {
+    font-size: 30px;
+  }
+
+  .lign {
+    border: 20px solid #f584e0;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

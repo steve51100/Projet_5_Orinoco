@@ -63,3 +63,26 @@
 span{
     @include police;
 }
+
+@media (max-width:768px){
+    .mess_conf,
+    .p_confim{
+        font-size: 20px;  
+    }
+    .fa-check-circle{
+        font-size: 50px;
+    }
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    h1,
+    h2,
+    h3,
+    li{
+        font-size: 30px;
+    }
+    .lign{
+       border: 20px solid $color-lign;
+    }
+};

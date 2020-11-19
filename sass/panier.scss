@@ -93,3 +93,21 @@ label{
     margin-bottom: 30px;
     cursor: pointer;
 }
+@media (max-width:768px){
+    #panier{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+    }
+    .h1,
+    .h2,
+    .h3,
+    .lien,
+    li{
+        font-size: 20px;
+    }
+    .each_teddy{
+        font-size: 20px;;
+    }
+};
