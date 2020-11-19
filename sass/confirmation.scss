@@ -1,0 +1,65 @@
+.bloc_confirm{
+    border: 2px solid $color-primary;
+    border-radius: 20px;
+    background-color: $color-menu;
+}
+
+.mess_conf,
+.p_confim{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+.mess_conf{
+    @include police;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.p_confim{
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.fa-check-circle{
+    font-size: 110px;
+    width: 100%;
+    color: $color-valid;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lign_sep,
+.lign_sep2{
+    border: 2px solid $color-primary;
+    width: 75%;
+    height: 30px;
+    margin: auto;
+    border-left: none;
+    border-right: none;
+}
+.lign_sep{
+     
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    
+    border-top: none; 
+    border-bottom-right-radius: 150px;  
+    border-bottom-left-radius: 150px; 
+}
+.lign_sep2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border-bottom: none;
+    border-top-right-radius: 150px;  
+    border-top-left-radius: 150px; 
+
+}
+.recap{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+span{
+    @include police;
+}

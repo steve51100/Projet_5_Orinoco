@@ -108,7 +108,7 @@ const getTeddies = async function () {
                     teddyId: teddies._id,
                     teddyColor: select.value,
                     quantity: 1,
-                    teddyPrice: teddies.price / 100,
+                    teddyPrice: teddies.price ,
                 };
                 console.log(teddiesChoosen);
 

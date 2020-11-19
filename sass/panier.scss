@@ -46,6 +46,7 @@
 
 .garbage_button:hover{
     background-color: $color-green;
+    cursor: pointer;
     
 }
 .total{
@@ -80,10 +81,15 @@ button a{
 }
 
 label{
-    width: 160px;
+    width: 170px;
     border-bottom: none;
     text-align: left;
 }
 .name{
     width: 300px;
+}
+#valid{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
